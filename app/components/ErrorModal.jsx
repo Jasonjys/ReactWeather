@@ -4,7 +4,6 @@ var ErrorModal = React.createClass({
   getDefaultProps: function () {
     return {
       title: 'Error',
-
     };
   },
   proptypes: {

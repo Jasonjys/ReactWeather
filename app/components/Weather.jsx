@@ -58,7 +58,7 @@ var Weather = React.createClass({
     // pass location and temp to WeatherMessage component
     return (
       <div>
-        <h2 className="text-center">Get Weather</h2>
+        <h2 className="text-center page-title">Get Weather</h2>
         <WeatherForm onSearch={this.handleSearch}/>
         {renderMessage()}
         {renderError()}
