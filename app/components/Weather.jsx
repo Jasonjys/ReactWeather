@@ -69,7 +69,7 @@ var Weather = React.createClass({
     function renderError() {
       //debugger
       if (errorMessage) {
-        return <ErrorModal message="You fucked up the city name!"/>
+        return <ErrorModal message="City not found!"/>
       }
     }
 
